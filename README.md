@@ -23,7 +23,7 @@ neměňte!
     tak, že dva produkty jsou si rovny, pokud mají stejný název a cenu.
 -   Do třídy `Product` přidejte metodu `hashCode()` tak, aby byla v
     souladu s `equals()`.
--   Vytvořte třídu `ShoppingCartImpl` implementující rozhraní
+-   Vytvořte třídu `se.terhol.ShoppingCartImpl` implementující rozhraní
     `ShoppingCart`. Třída bude používat vhodnou kolekci (tedy ne pole!).
     Pro vracení nemodifikovatelné kolekce v metodě `getProducts()` viz
     třída `Collections`.

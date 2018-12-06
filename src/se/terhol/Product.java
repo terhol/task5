@@ -63,4 +63,19 @@ public class Product {
         }
         this.quantity = quantity;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object instanceof Product) {
+            Product product = (Product) object;
+            return this.name.equals(product.getName()) && this.price == product.getPrice();
+        } else {
+            return false;
+        }
+    }
+
+    @Override
+    public int hashCode() {
+        return (this.name.hashCode() + this.price) * 31;
+    }
 }
