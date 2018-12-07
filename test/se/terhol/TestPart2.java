@@ -13,7 +13,6 @@ import static org.junit.jupiter.api.Assertions.assertNull;
  * @author Jan Papousek
  */
 public class TestPart2 {
-    /*
     private static Product[] products;
     private static Customer[] customers;
     private static Shop shop;
@@ -116,5 +115,4 @@ public class TestPart2 {
         assertEquals(expectedPrice, shop.buy(customers[0]), "Cena nakoupeneho zbozi zakaznika neodpovida.");
         assertFalse(shop.getActiveCustomers().contains(customers[0]), "Zakaznik nebyl po nakupu vyrazen z aktivnih zakazniku");
     }
-    */
 }

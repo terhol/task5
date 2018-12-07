@@ -26,4 +26,19 @@ public class Customer {
     public String getName() {
         return name;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object instanceof Customer) {
+            Customer customer = (Customer) object;
+            return this.name.equals(customer.getName());
+        } else {
+            return false;
+        }
+    }
+
+    @Override
+    public int hashCode() {
+        return this.name.hashCode() * 31;
+    }
 }

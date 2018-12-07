@@ -12,7 +12,9 @@ import java.util.Set;
  * @author Tereza Holm
  */
 public class ShoppingCartImpl implements ShoppingCart {
-    Set<Product> products = new HashSet<>();
+
+
+    private Set<Product> products = new HashSet<>();
 
     @Override
     public boolean add(Product product) {
