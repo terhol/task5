@@ -1,8 +1,5 @@
 package se.terhol;
 
-import se.terhol.Product;
-import se.terhol.ShoppingCart;
-
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;
@@ -12,8 +9,6 @@ import java.util.Set;
  * @author Tereza Holm
  */
 public class ShoppingCartImpl implements ShoppingCart {
-
-
     private Set<Product> products = new HashSet<>();
 
     @Override
